@@ -52,6 +52,12 @@ nav{
     border-radius: 5%;
 }
 
+.nav-item {
+  margin-right:60%;
+}
+
+
+
 #bienvenue{
     background-color: #00AF9E;
     margin-top: 10%;
@@ -63,6 +69,21 @@ nav{
 #bienvenue #text1 {
   margin-left:10%;
   margin-right:10%;
+}
+
+#boutton1 {
+  margin-left:10%;
+  background-color:rgb(162,67,146);
+  font-weight:bold;
+  font-size: 20px;
+  border:black;
+}
+
+#boutton2 {
+  background-color:rgb(245,143,10);
+  font-weight:bold;
+  font-size: 20px;
+  border:black;
 }
 
 #scroll{
@@ -132,3 +153,41 @@ color:rgb(215,219,49)
 #ref {
 color:black;
 }
+
+body {
+  font-family: "Helvetica Neue",sans-serif;
+}
+
+#myScrollspy2 {
+  font-size: 20px;
+}
+
+#contenu3 .list-group-item.active {
+background-color:rgb(162,67,146);
+border-color:rgb(162,67,146);
+color:white;
+}
+
+#contenu3 a.list-group-item{
+color:rgb(162,67,146);
+font-weight: bold;
+}
+
+#contenu3 .gras {
+font-weight: bold;
+}
+
+#contenu3 .color {
+color:rgb(162,67,146);
+}
+
+#contenu3 h3,h4{
+color:rgb(162,67,146);
+}
+
+
+#contenu3 .lienstext, a:hover {
+color:rgb(162,67,146);
+}
+
+.jumbotron {background-color:rgb(162,67,146) }
