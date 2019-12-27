@@ -72,17 +72,17 @@ nav{
 }
 
 #boutton1 {
-  margin-left:10%;
+  margin-left:5%;
   background-color:rgb(162,67,146);
   font-weight:bold;
-  font-size: 20px;
+  font-size: 15px;
   border:black;
 }
 
 #boutton2 {
   background-color:rgb(245,143,10);
   font-weight:bold;
-  font-size: 20px;
+  font-size: 15px;
   border:black;
 }
 
@@ -134,7 +134,11 @@ font-weight: bold;
 color:rgb(245,143,10);
 }
 
-#contenu1 h3,h4{
+#contenu1 h3 {
+color:rgb(245,143,10);
+}
+
+#contenu1 h4 {
 color:rgb(245,143,10);
 }
 
