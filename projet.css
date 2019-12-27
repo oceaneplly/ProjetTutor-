@@ -1,7 +1,93 @@
 body {
   font-family: "Helvetica Neue",sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    height: 100%;
+}
+
+a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.nav-item {
+  margin-right:20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin-top: -15%;
+}
+
+.col-lg-3{
+    height: 20%;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+}
+
+#objectifs{
+    background-color: #00AF9E;
+    color: black;
+    border-radius: 5%;
+}
+
+#cv{
+    background-color: #E71D73;
+    color: black;
+    border-radius: 5%;
+}
+
+#form{
+    background-color: #EB8915;
+    color: black;
+    border-radius: 5%;
+}
+
+#bienvenue{
+    background-color: #00AF9E;
+    margin-top: 10%;
+}
+
+#scroll{
+    opacity: 70%;
+    position: fixed;
+    right: 1%;
+    top: 90%;
+}
+
+#etranger{
+    text-align: center;
+    margin: top;
+}
+
+#venir{
+    background-color: #00AF9E;
+    color: black;
+    border-radius: 5%;
+}
+
+#partir{
+    background-color: #E71D73;
+    color: black;
+    border-radius: 5%;
+}
+
+/* ------------------ */
 #myScrollspy {
   font-size: 20px;
 }
