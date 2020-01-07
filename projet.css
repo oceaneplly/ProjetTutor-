@@ -61,7 +61,8 @@ nav{
 
 #bienvenue{
     background-color: #00AF9E;
-    margin-top: 30%;
+    color:white;
+    margin-top:30%; 
 }
 
 #carousel1 {
@@ -164,10 +165,6 @@ color:rgb(215,219,49)
 color:black;
 }
 
-body {
-  font-family: "Helvetica Neue",sans-serif;
-}
-
 #myScrollspy2 {
   font-size: 20px;
 }
@@ -200,6 +197,9 @@ color:rgb(162,67,146);
 color:rgb(162,67,146);
 }
 
-.jumbotron {background-color:rgb(162,67,146) }
+.jumbotron {
+  background-color:rgb(162,67,146)
+  color:white;
+}
 
 #ouais {width: 500%; height: 500%}
