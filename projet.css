@@ -212,3 +212,7 @@ color:rgb(162,67,146);
 .gras {
   font-weight: bold;
 }
+
+#stagetext {
+  font-size:12px;
+}
