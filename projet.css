@@ -2,6 +2,7 @@ body {
   font-family: "Helvetica Neue",sans-serif;
   margin-left: 15px;
   margin-right: 15px;
+  font-weight: 500;
 }
 
 .row{
@@ -60,8 +61,13 @@ nav{
 
 #bienvenue{
     background-color: #00AF9E;
-    margin-top: 10%;
+    margin-top: 30%;
 }
+
+#carousel1 {
+  margin-top: 20% 
+}
+
 #bienvenue #title {
   margin-left:10%;
 }
