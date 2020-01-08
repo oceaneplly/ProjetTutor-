@@ -87,3 +87,14 @@ nav{
 .gras {
   font-weight: bold;
 }
+
+#test {
+  text-align: center;
+  font-style: italic;
+}
+
+.card {text-align: center}
+
+.italic {
+  font-style: italic;
+}
