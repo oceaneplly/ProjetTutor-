@@ -28,7 +28,7 @@ body {
 }
 
 #carousel-inner {
-  padding-top:100%;
+  margin-top:100%;
 }
 
 .col-lg-3{
