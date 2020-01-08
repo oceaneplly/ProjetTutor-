@@ -1,0 +1,93 @@
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 500;
+  font-size:17px;
+}
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#contenu4 a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    height: 100%;
+}
+
+#contenu4 a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.nav-item {
+  margin-right:20px;
+}
+
+.col-lg-3{
+    height: 20%;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+}
+
+#objectifs{
+    background-color: #00AF9E;
+    color: black;
+    border-radius: 5%;
+}
+
+#cv{
+    background-color: #E71D73;
+    color: black;
+    border-radius: 5%;
+}
+
+#form{
+    background-color: #EB8915;
+    color: black;
+    border-radius: 5%;
+}
+
+.nav-item {
+  margin-right:60%;
+}
+
+
+#objectif1{
+    background-color: #00AF9E;
+    margin-top: 30%;
+    color: white;
+}
+
+#objectif1 #title {
+  margin-left:10%;
+}
+
+#objectif1 #text1 {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.d-block {
+  margin-top: 10%
+}
+
+
+ .jumbotron {
+   background-color:rgb(162,67,146);
+   color:white;
+ }
+
+.gras {
+  font-weight: bold;
+}
+
+#partie1 #partie2 #partie3 {
+  font-size:14px;
+}
