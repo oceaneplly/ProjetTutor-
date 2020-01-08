@@ -1,0 +1,89 @@
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 500;
+  font-size:17px;
+}
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#contenu4 a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    height: 100%;
+}
+
+#contenu4 a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.nav-item {
+  margin-right:20px;
+}
+
+.col-lg-3{
+    height: 20%;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+}
+
+#objectifs{
+    background-color: #00AF9E;
+    color: black;
+    border-radius: 5%;
+}
+
+#cv{
+    background-color: #E71D73;
+    color: black;
+    border-radius: 5%;
+}
+
+#form{
+    background-color: #EB8915;
+    color: black;
+    border-radius: 5%;
+}
+
+.nav-item {
+  margin-right:60%;
+}
+
+#carousel1 {
+  margin-top: 20%
+}
+
+#bienvenue{
+    background-color: #00AF9E;
+    color: white;
+}
+
+#bienvenue #title {
+  margin-left:10%;
+}
+
+#bienvenue #text1 {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+
+
+#contenu4 .jumbotron {
+  margin-top: 10%;
+   background-color:#E71D73;
+   color:white;
+ }
+
+.gras {
+  font-weight: bold;
+}
