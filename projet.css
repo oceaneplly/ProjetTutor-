@@ -31,10 +31,6 @@ body {
     height: 20%;
 }
 
-.carousel-inner {
-  margin-top: 5%;
-}
-
 nav{
     background-color: white;
     text-align: center;
@@ -62,9 +58,6 @@ nav{
   margin-right:60%;
 }
 
-#carousel1 {
-  margin-top:10%;
-}
 
 #bienvenue{
     background-color: #00AF9E;
