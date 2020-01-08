@@ -58,10 +58,13 @@ nav{
   margin-right:60%;
 }
 
+#carousel1 {
+  margin-top: 10%;
 
 #bienvenue{
     background-color: #00AF9E;
     color: white;
+    margin-top:5%;
 }
 
 #bienvenue #title {
