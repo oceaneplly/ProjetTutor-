@@ -31,6 +31,10 @@ body {
     height: 20%;
 }
 
+.carousel-inner {
+  margin-top: 5%;
+}
+
 nav{
     background-color: white;
     text-align: center;
