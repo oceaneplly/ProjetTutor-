@@ -13,13 +13,15 @@ body {
 
 #contenu4 a{
     text-decoration: none;
-    color: black;
-    margin-top: 5%;
     height: 100%;
 }
 
+a:link {
+  color:black;
+}
+
 #contenu4 a:hover{
-    font-weight: bold;
+    text-decoration: underline;
     color: black;
 }
 
@@ -79,7 +81,6 @@ nav{
 
 
  .jumbotron {
-   background-color:rgb(162,67,146);
    color:white;
  }
 
@@ -89,4 +90,11 @@ nav{
 
 #partie1 #partie2 #partie3 {
   font-size:14px;
+}
+
+.nav-pills .nav-link.active
+ {
+   background-color: #00AF9E;
+  color:white;
+  font-weight:bold;
 }
