@@ -69,34 +69,34 @@
      <br>
     <p>
         <label for="nom" class="champ"> Votre Nom : </label>  
-        <input type="text" name="nom" id="nom" required pattern="[A-Z][a-z]*"/>
+        <input type="text" name="nom" id="nom" value="" onkeypress="check()"/>
     </p>
      
 	<p>
         <label for="prenom" class="champ">Votre Prénom :</label>  
-        <input type="text" name="prenom" id="prenom" required/>
+        <input type="text" name="prenom" id="prenom" value="" onkeypress="check()"/>
     </p>
      
      <p>
         <label for="entreprise" class="champ">Nom de votre entreprise :</label>  
-         <input type="text" name="entreprise" id="entreprise" required/>
+         <input type="text" name="entreprise" id="entreprise" value="" onkeypress="check()"/>
     </p>
     
 	<p>
   <label for="email" class="champ">Votre email :</label>
    <input type="email" name="email" size="20" 
-   maxlength="40"  id="email" required/>   </p>
+   maxlength="40"  id="email" value=""/>   </p>
     
     <p>
         <label for="message" class="champ">Entrer votre message :</label></p>
-    <p><textarea cols="100" rows="5" id="message" required></textarea></p>
+    <p><textarea cols="100" rows="5" id="message" value=""></textarea></p>
      
-     <p><input type="checkbox" name="donnees" required id="donnees"> Protection des données personnelles</p>
+     <p><input type="checkbox" name="donnees" value="" id="donnees"/> Protection des données personnelles</p>
      
      <p id="protection">En cochant cette case, vous acceptez que les données collectées dans le présent formulaire soient utilisées afin de transmettre votre offre de stage aux étudiants. Depuis la loi “informatique et libertés” du 6 janvier 1978 modifiée et conformément au Règlement Général sur la Protection des Données (n°2016/679), vous bénéficiez d’un droit d’accès, de rectification ou de suppression des informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez le renseigner dans le message ci-dessus.</p>
      
     </form>
-     <input type="button" name="Valider" id="valider" value="Valider" onclick="valider()">
+     <input type="button" name="Valider" id="valider" value="Valider" onclick="valider()"/>
     </div>
        </div>
        
