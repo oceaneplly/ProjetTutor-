@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>IUT de Lens</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="form.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+       
+
+       <!-- Lien pour mettre l'image en icône d'onglet -->
+    <link rel="icon" type="shortcut image" href="Logo_IUT_Lens.ico"/>
+   </head>
+   <body>
+       
+       <script type="text/javascript" src="form.js"></script>
+     <a name="haut"></a>
+      <!-- Code de Maud-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+        <a class="navbar-brand" id="menu" href="projet.html">  <img src="Logo_IUT_Lens.svg" height="130" alt="CoolBrand"> </a>
+
+     <!-- Sans le data toggle et le data target le menu ne se déroule pas quand il est caché en apuyant sur le bouton -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span> <!-- Navbar-toggler-icon : apparence du bouton du menu "caché" -->
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> <!-- Cette ligne sert pour cacher les liens dans le menu "caché" -->
+    <div class="navbar-nav">
+
+      <a class="nav-item nav-link active col-lg-12 col-md-6 col-sm-6" href="objectif.html" id="objectifs"> Objectifs <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link col-lg-12 col-md-6 col-sm-6" href="form.html" id="form">Formulaire</a>
+      <a class="nav-item nav-link col-lg-12 col-md-6 col-sm-6" href="cv.html" id="cv">CV</a>
+
+
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 col-lg-6">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+</div>
+</div>
+
+<div class="container-fluid" id="contenu4">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="jumbotron jumbotron-fluid" id="bienvenue">
+    <h2 class="display-4" id="title">Formulaire</h2>
+    <p class="lead" id="text1">Vous êtes une entreprise et souhaitez une collaboration avec l'IUT de Lens ? Ce formulaire ici présent vous permez d'envoyer une offre de stage à nos étudiants dans votre entreprise.
+</p>
+          </div>
+        </div>
+    </div>
+    
+    
+<div id="formulaire">
+ <form>
+ <h1>Vos coordonnées :</h1>
+     <br>
+    <p>
+        <label for="nom" class="champ"> Votre Nom : </label>  
+        <input type="text" name="nom" id="nom" required pattern="[A-Z][a-z]*"/>
+    </p>
+     
+	<p>
+        <label for="prenom" class="champ">Votre Prénom :</label>  
+        <input type="text" name="prenom" id="prenom" required/>
+    </p>
+     
+     <p>
+        <label for="entreprise" class="champ">Nom de votre entreprise :</label>  
+         <input type="text" name="entreprise" id="entreprise" required/>
+    </p>
+    
+	<p>
+  <label for="email" class="champ">Votre email :</label>
+   <input type="email" name="email" size="20" 
+   maxlength="40"  id="email" required/>   </p>
+    
+    <p>
+        <label for="message" class="champ">Entrer votre message :</label></p>
+    <p><textarea cols="100" rows="5" id="message" required></textarea></p>
+     
+     <p><input type="checkbox" name="donnees" required id="donnees"> Protection des données personnelles</p>
+     
+     <p id="protection">En cochant cette case, vous acceptez que les données collectées dans le présent formulaire soient utilisées afin de transmettre votre offre de stage aux étudiants. Depuis la loi “informatique et libertés” du 6 janvier 1978 modifiée et conformément au Règlement Général sur la Protection des Données (n°2016/679), vous bénéficiez d’un droit d’accès, de rectification ou de suppression des informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez le renseigner dans le message ci-dessus.</p>
+     
+    </form>
+     <input type="button" name="Valider" id="valider" value="Valider" onclick="valider()">
+    </div>
+       </div>
+       
+    </body>
+    
+<footer class="page-footer font-small unique-color-dark">
+<br>
+   <div style="background-color: rgba(245,143,10,0.6)">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Rejoignez nous sur les réseaux sociaux !</h6>
+
+        </div>
+          <div class="col-md-6 col-lg-5 text-center text-md-right mb-4 mb-md-0">
+              <a class="icon facebook" href="https://www.facebook.com/IUT.DE.LENS/Facebook" target="_blank"> <img src="facebook.svg" alt="logo de facebook" class="col-2"> </a>
+              <a class="icon youtube" href="https://www.youtube.com/user/servicecomiut" target="_blank"> <img src="youtube.svg" alt="logo de Youtube" class="col-2 offset-1"> </a>
+              <a class="icon linkedin" href="https://www.linkedin.com/school/iut-de-lens/about/" target="_blank"> <img src="linkedin.svg" alt="logo de Linkedin" class="col-2 offset-1"> </a>
+                <a class="icon Twitter" href="https://twitter.com/IUTdeLens/" target="_blank"> <img src="twitter.svg" alt="logo de Twitter" class="col-2 offset-1"></a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+   <div class="container text-center text-md-left mt-5" id="contenu2">
+    <div class="row mt-3">
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">IUT de Lens</h6>
+        <hr>
+        Accéder à l'<a target="_blank" href="https://www.gestionedt.emploisdutempssrc.net/edt/semaine/INFO/2020-01-13">EDT</a>, l'<a target="_blank" href="http://ent.univ-artois.fr/uPortal/f/u29l1s43/normal/render.uP">ENT</a> ou <a target="_blank" href="http://moodle.univ-artois.fr/cours/">Moodle</a>
+        <br>
+        <br>
+        <img src="univartois.png" alt="Logo de l'université artois">
+
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">Liens</h6>
+        <hr>
+          <a href="#!">Objectifs</a>
+          <br>
+          <br>
+          <a href="#!">CV</a>
+          <br>
+          <br>
+          <a href="#!">Formulaire</a>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr>
+        <p class="adresse mr-3"><span class="gras">Adresse </span>:<br>
+            Rue de l’université<br>
+            SP 16<br>
+            62307 LENS Cedex<br>
+            FRANCE</p>
+          <p class="tel mr-3"> <span class="gras">Tel </span>: +33 (0)3 21 79 32 32</p>
+      </div>
+    </div>
+  </div>
+<div class="text-center py-3" style="background:rgba(162,67,146,0.6)" id="ref">
+© 2020 IUT de Lens
+</div>
+<!-- Merci d'avoir lu notre projet -->
+</footer>
+</html>
