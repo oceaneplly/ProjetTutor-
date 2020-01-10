@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>IUT of Lens - Goals</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="objectif.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="projet.js"></script>
+
+       <!-- Lien pour mettre l'image en icône d'onglet -->
+    <link rel="icon" type="shortcut image" href="Logo_IUT_Lens.ico"/>
+   </head>
+
+   <body>
+     <a name="haut"></a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+        <a class="navbar-brand" id="menu" href="projet.html">  <img src="Logo_IUT_Lens.svg" height="130" alt="CoolBrand"> </a>
+
+     <!-- Sans le data toggle et le data target le menu ne se déroule pas quand il est caché en apuyant sur le bouton -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span> <!-- Navbar-toggler-icon : apparence du bouton du menu "caché" -->
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> <!-- Cette ligne sert pour cacher les liens dans le menu "caché" -->
+    <div class="navbar-nav">
+
+      <a class="nav-item nav-link active col-lg-12 col-md-6 col-sm-6" href="objectif.html" id="objectifs"> Goals <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link col-lg-12 col-md-6 col-sm-6" href="form.html" id="form">Forms</a>
+      <a class="nav-item nav-link col-lg-12 col-md-6 col-sm-6" href="#" id="cv">CV</a>
+
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 col-lg-12">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+  <hr class="transparence">
+</div>
+</div>
+</div>
+
+<div class="container-fluid" id="contenu4">
+    <div class="row">
+      <div class="col-12 col-lg-12">
+        <div class="jumbotron jumbotron-fluid" id="objectif1">
+    <h2 class="display-4" id="title">Goals</h2>
+    <p class="lead" id="text1">In this section, you have the possibility to access the goals concerning the traineeships. They are compulsory and represent an important part for 2nd year students of IT DUT. They can do their internship in France but also internationally.
+</p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+ <div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-synthese-tab" data-toggle="pill" href="#v-pills-synthese" role="tab" aria-controls="v-pills-synthese" aria-selected="true">Knowledge synthesis</a>
+      <a class="nav-link" id="v-pills-prof-tab" data-toggle="pill" href="#v-pills-prof" role="tab" aria-controls="v-pills-prof" aria-selected="false">Professional environment</a>
+      <a class="nav-link" id="v-pills-compt-tab" data-toggle="pill" href="#v-pills-compt" role="tab" aria-controls="v-pills-compt" aria-selected="false">Personal skills</a>
+     <a class="nav-link" id="v-pills-compt1-tab" data-toggle="pill" href="#v-pills-compt1" role="tab" aria-controls="v-pills-compt1" aria-selected="false">Skills to be implemented</a>
+     <a class="nav-link" id="v-pills-compt2-tab" data-toggle="pill" href="#v-pills-compt2" role="tab" aria-controls="v-pills-compt2" aria-selected="false">Skills to be developed</a>
+     <a class="nav-link" id="v-pills-liens-tab" data-toggle="pill" href="#v-pills-liens" role="tab" aria-controls="v-pills-liens" aria-selected="false">Practical links</a>
+
+     </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-synthese" role="tabpanel" aria-labelledby="v-pills-synthese-tab">One of the objectives of the internship is allow the student to do a synthesis  knowledge developed to the IUT. He must assimilate not only the skills but also the basic concepts and working methods he learned during the DUT. In this way he will be able to integrate the requirements and expertise linked to the professional environment.
+</div>
+      <div class="tab-pane fade" id="v-pills-prof" role="tabpanel" aria-labelledby="v-pills-prof-tab"> During the internship, the student must become aware of the socio-professional environment. This is his first contact with the world of work. The company will expect active production from the student. He's going to have to prove himself within the company. He doesn't have to take it as a test he could have taken at the academy.  </div>
+     <div class="tab-pane fade" id="v-pills-compt" role="tabpanel" aria-labelledby="v-pills-compt-tab">  Enabling the student to identify his or her personal abilities is also an objective of the internships. It’ is a necessary step in the construction of your student's professional project. It is the qualities and abilities of the student that will impress the recruiters he or she meets. The in-depth work, Personal and Professional Project, followed at the IUT, has already allowed the student to reflect on his potential skills. The internship, thanks to the precision of his personal skills, will allow him to progress in the construction of his professional project.</div>
+      <div class="tab-pane fade" id="v-pills-compt1" role="tabpanel" aria-labelledby="v-pills-compt1-tab">  The student, thanks to his internship, will be able to implement the skills he had to acquire in his training. He must be able to :
+<ul>
+   <li> Analyze, design and realize an IT solution, a website ;</li>
+   <li> Administering an information system, a database, networks ; </li>
+   <li>Advise and technically assist users, customers and services ; </li>
+   <li> Working in a team, communicating (in French and English) ; </li>
+   <li> Develop project management skills: time management, assignment distribution, autonomy. </li>
+ </ul>
+</div>
+       <div class="tab-pane fade" id="v-pills-compt2" role="tabpanel" aria-labelledby="v-pills-compt2-tab">The internship must help the student to develop skills that will be useful in his or her future professional life. He have to put into practice knowledge and know-how (research, proposal of solutions, realization, etc.) during his internship. When he will be in the company, he will be solicited and will have to be productive: it is necessary that he knows how to implement the knowledge acquired during his DUT. Within the company, he will have to develop relational skills such as autonomy, initiative, conflict management… </div>
+    <div class="tab-pane fade" id="v-pills-liens" role="tabpanel" aria-labelledby="v-pills-liens-tab">For more information on internships, you can visit the site of the <a class="infos" href="http://www.iut-lens.univ-artois.fr/formations/offre-de-formation/dut/dut-informatique/#projets" target="_blank">IUT of Lens</a> of the <a href="https://www.iut.fr/files/fck/File/documents/PPN/anglais/PPN%20Informatique%20.pdf" target="_blank">PPN</a> concerning the IT DUT. </div>
+
+     </div>
+  </div>
+</div>
+ <hr>
+ <p></p>
+
+
+</body>
+<p></p>
+<footer class="page-footer font-small unique-color-dark">
+
+   <div style="background-color: rgba(245,143,10,0.6)">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Join us to social media !</h6>
+
+        </div>
+          <div class="col-md-6 col-lg-5 text-center text-md-right mb-4 mb-md-0">
+              <a class="icon facebook" href="https://www.facebook.com/IUT.DE.LENS/Facebook" target="_blank"> <img src="facebook.svg" alt="logo de facebook" class="col-2"> </a>
+              <a class="icon youtube" href="https://www.youtube.com/user/servicecomiut" target="_blank"> <img src="youtube.svg" alt="logo de Youtube" class="col-2 offset-1"> </a>
+              <a class="icon linkedin" href="https://www.linkedin.com/school/iut-de-lens/about/" target="_blank"> <img src="linkedin.svg" alt="logo de Linkedin" class="col-2 offset-1"> </a>
+                <a class="icon Twitter" href="https://twitter.com/IUTdeLens/" target="_blank"> <img src="twitter.svg" alt="logo de Twitter" class="col-2 offset-1"></a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+   <div class="container text-center text-md-left mt-5" id="contenu2">
+    <div class="row mt-3">
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">IUT of Lens</h6>
+        <hr>
+        Access to the <a target="_blank" href="https://www.gestionedt.emploisdutempssrc.net/edt/semaine/INFO/2020-01-13">timetable</a>, the <a target="_blank" href="http://ent.univ-artois.fr/uPortal/f/u29l1s43/normal/render.uP">ENT (digital work environment)</a> or <a target="_blank" href="http://moodle.univ-artois.fr/cours/">Moodle</a>
+        <p></p>
+        <p></p>
+        <img src="univartois.png" alt="Logo de l'université artois">
+
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">Links</h6>
+        <hr>
+          <a href="objectif.html">Objectifs (version française)</a>
+          <p></p>
+          <p></p>
+          <a href="cv.html">CV</a>
+          <p></p>
+          <p></p>
+          <a href="form.html">Form</a>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr>
+        <p class="adresse mr-3"><span class="gras">Adress </span><p class="petit"></p>
+            University Street<p class="petit"></p>
+            SP 16<p class="petit"></p>
+            62307 LENS Cedex<p class="petit"></p>
+            FRANCE</p>
+          <p class="tel mr-3"> <span class="gras">Number phone </span>: +33 (0)3 21 79 32 32</p>
+      </div>
+    </div>
+  </div>
+<div class="text-center py-3" style="background:rgba(162,67,146,0.6)" id="ref">
+© 2020 IUT de Lens
+</div>
+<!-- Merci d'avoir lu notre projet -->
+</footer>
