@@ -98,3 +98,12 @@ nav{
   color:white;
   font-weight:bold;
 }
+
+li {
+  color: #00AF9E;
+}
+
+.nav-link a:link {
+  color: #00AF9E;
+}
+   
