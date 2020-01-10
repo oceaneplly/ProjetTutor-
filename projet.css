@@ -11,6 +11,15 @@ body {
     margin-right: -15px;
 }
 
+
+.petit {
+  margin-bottom: 2%;
+}
+
+.transparence {
+  opacity:0
+}
+
 #contenu4 a{
     text-decoration: none;
     color: black;
