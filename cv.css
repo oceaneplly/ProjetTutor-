@@ -11,6 +11,14 @@ body {
     margin-right: -15px;
 }
 
+.petit {
+  margin-bottom: 2%;
+}
+
+.transparence {
+  opacity:0
+}
+
 .d-block {
   margin-top: 10%
 }
