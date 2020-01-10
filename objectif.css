@@ -37,6 +37,9 @@ nav{
     background-color: white;
     text-align: center;
 }
+ ul {
+   color: black;
+}
 
 #objectifs{
     background-color: #00AF9E;
@@ -103,7 +106,9 @@ li {
   color: #00AF9E;
 }
 
-.nav-link a:link {
+.nav-link {
   color: #00AF9E;
 }
+
+
    
