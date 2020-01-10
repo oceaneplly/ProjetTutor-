@@ -106,9 +106,11 @@ li {
   color: #00AF9E;
 }
 
-#v-pills-tab a:link {
+a #v-pills-liens-tab .nav-lin.active.show {
   color: #00AF9E;
 }
 
-
-   
+#contenu a:link {
+  color:#00AF9E;
+  font-weight:bold;
+}
