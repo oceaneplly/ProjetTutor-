@@ -58,6 +58,9 @@
         <div class="jumbotron jumbotron-fluid" id="objectif1">
     <h2 class="display-4" id="title">Goals</h2>
     <p class="lead" id="text1">In this section, you have the possibility to access the goals concerning the traineeships. They are compulsory and represent an important part for 2nd year students of IT DUT. They can do their internship in France but also internationally.
+      <hr>
+      <div class="italic">Cliquez sur le drapeau pour afficher ce site en français &nbsp;
+      <a href="objectif.html"><img src="drapeauFR.svg" alt="Cliquez ici pour avoir la version française" height="20"></a></div>
 </p>
 </div>
 </div>
