@@ -95,7 +95,7 @@ nav{
   font-size:14px;
 }
 
-.nav-pills .nav-link.active
+.nav-pills .nav-link.active a:link
  {
    background-color: #00AF9E;
   color:white;
