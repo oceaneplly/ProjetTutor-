@@ -98,13 +98,8 @@ nav{
 .nav-pills .nav-link.active
  {
    background-color: #00AF9E;
- 
-  font-weight:bold;
-}
-
-.nav-pills .nav-link.active a:link
-{
  color:white;
+  font-weight:bold;
 }
 
 li {
