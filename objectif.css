@@ -95,11 +95,16 @@ nav{
   font-size:14px;
 }
 
-.nav-pills .nav-link.active a:link
+.nav-pills .nav-link.active
  {
    background-color: #00AF9E;
-  color:white;
+ 
   font-weight:bold;
+}
+
+.nav-pills .nav-link.active a:link
+{
+ color:white;
 }
 
 li {
