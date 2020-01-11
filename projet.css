@@ -20,16 +20,15 @@ body {
   opacity:0
 }
 
-
 #contenu4 a{
     text-decoration: none;
     margin-top: 5%;
     height: 100%;
-    background-color:rgb(162,67,146);
     padding: 2%;
     border-radius: 5%;
-    font-size:15px;
-    font-weight: bold;
+    border: solid 2px white;
+    font-size:17px;
+
 }
 
 #contenu4 #text2 .partir a{
