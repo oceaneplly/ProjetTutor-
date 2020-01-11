@@ -1,0 +1,125 @@
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 500;
+  font-size:17px;
+}
+
+.petit {
+  margin-bottom: 2%;
+}
+.transparence {
+  opacity:0
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#contenu4 a{
+    text-decoration: none;
+    height: 100%;
+}
+
+a:link {
+  color:black;
+}
+
+#contenu4 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.nav-item {
+  margin-right:20px;
+}
+
+.col-lg-3{
+    height: 20%;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+}
+
+#objectifs{
+    background-color: #00AF9E;
+    color: black;
+    border-radius: 5%;
+}
+
+#cv{
+    background-color: #E71D73;
+    color: black;
+    border-radius: 5%;
+}
+
+#form{
+    background-color: #EB8915;
+    color: black;
+    border-radius: 5%;
+}
+
+#conseils {
+  background-color: rgb(162,67,146);
+  color: black;
+  border-radius: 5%;
+}
+
+#ref {
+  background:rgba(162,67,146,0.6);
+}
+
+#footer {
+  background-color: rgba(245,143,10,0.6);
+}
+
+.nav-item {
+  margin-right:20%;
+}
+
+.italic {
+  font-style :italic;
+}
+
+
+#objectif1{
+    background-color: #A24392;
+    color: white;
+}
+
+#objectif1 #title {
+  margin-left:10%;
+}
+
+#objectif1 #text1 {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.d-block {
+  margin-top: 10%
+}
+
+
+ .jumbotron {
+   background-color:rgb(162,67,146);
+   color:white;
+ }
+
+.gras {
+  font-weight: bold;
+}
+
+#partie1 #partie2 #partie3 {
+  font-size:14px;
+}
+
+.nav-pills .nav-link.active
+ {
+   background-color: #A24392;
+  color:white;
+  font-weight:bold;
+}
