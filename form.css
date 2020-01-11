@@ -19,6 +19,21 @@ body {
     margin-right: -15px;
 }
 
+#conseils {
+  background-color: rgb(162,67,146);
+  color: black;
+  border-radius: 5%;
+}
+
+#ref {
+  background:rgba(162,67,146,0.6);
+}
+
+#footer {
+  background-color: rgba(245,143,10,0.6);
+}
+
+
 #contenu4 a{
     text-decoration: none;
     color: black;
@@ -93,7 +108,6 @@ color:black;
 }
 
 .jumbotron {
-   background-color:rgb(162,67,146);
    color:white;
  }
 
