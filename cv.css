@@ -109,3 +109,5 @@ nav{
 .italic {
   font-style: italic;
 }
+
+embed {max-width: 100%; max-height: 100%}
