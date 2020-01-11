@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
    <head>
       <meta charset="utf-8">
       <title>IUT de Lens</title>
@@ -8,13 +8,12 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="projet.js"></script>
+      <script src="projet.js"></script>
 
        <!-- Lien pour mettre l'image en icône d'onglet -->
     <link rel="icon" type="shortcut image" href="Logo_IUT_Lens.ico"/>
    </head>
    <body>
-     <a name="haut"></a>
       <!-- Code de Maud-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
         <a class="navbar-brand" id="menu" href="#">  <img src="Logo_IUT_Lens.svg" height="130" alt="CoolBrand"> </a>
@@ -26,10 +25,10 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> <!-- Cette ligne sert pour cacher les liens dans le menu "caché" -->
     <div class="navbar-nav">
 
-      <a class="nav-item nav-link active col-lg-12 col-md-6 col-sm-6" href="objectif.html" id="objectifs"> Objectifs <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link col-lg-12 col-md-6 col-sm-6" href="form.html" id="form">Formulaire</a>
-      <a class="nav-item nav-link col-lg-12 col-md-6 col-sm-6" href="cv.html" id="cv">CV</a>
-
+      <a class="nav-item nav-link active col-lg-7 col-md-3 col-sm-3" href="#" id="objectifs"> Objectifs <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link col-lg-7 col-md-3 col-sm-3" href="form.html" id="form">Formulaire</a>
+      <a class="nav-item nav-link col-lg-7 col-md-3 col-sm-3" href="cv.html" id="cv">CV</a>
+      <a class="nav-item nav-link col-lg-7 col-md-3 col-sm-3" href="conseils.html" id="conseils">Conseils</a>
 
     </div>
   </div>
@@ -60,8 +59,11 @@
     <h2 class="display-4" id="title">International</h2>
     <p class="lead" id="text1">Dans cette page d'accueil, vous pouvez accéder à deux parties, venir à l'IUT et partir à l'étranger. Ces deux parties sont accessibles en appuyant sur les boutons en dessous.
 </p>
+<hr>
+<hr class="transparence">
 
-<p class="lead" id="text2"> <button type="button" class="btn btn-light col-lg-5 col-5" href="#ETUDIER" id="boutton1"> <a href="#ETUDIER" style="color="white">Venir étudier à l'IUT </a> </button> <button type="button" class="btn btn-light col-lg-5 col-5 offset-1" id="boutton2"> <a href="#Partir">Partir à l'étranger</a> </button>
+
+<p class="lead" id="text2">  <a class="col-lg-4 offset-lg-2 col-12" href="#ETUDIER">Venir étudier à l'IUT </a> <a class="partir col-lg-4 offset-lg-2 col-12" href="#Partir">Partir à l'étranger</a>
 </p>
   </div>
 </div>
@@ -86,14 +88,14 @@
 
 
     <button onClick="window.scrollTo(0, 0);" id="scroll">
-        <img src="arrow.svg">
+        <img src="arrow.svg" alt="flèche">
     </button>
 <hr>
 <p></p>
     <div class="jumbotron jumbotron-fluid"> <!-- j'ai mis une balise style ici avec le background color mais je pense que tu peux le faire directement dans ton css avec la couleur violette de la charte ;) -->
  <div class="container" id="lesétudes">
-   <h1 class="display-4" id="ETUDIER" style:"color:white;">VENIR ETUDIER À L'IUT</h1>
-   <p class="lead" style:"color:white;">Vous trouverez ici toutes les informations nécessaires afin pouvoir venir étudier à l'IUT de Lens.</p>
+   <h1 class="display-4" id="ETUDIER">VENIR ETUDIER À L'IUT</h1>
+   <p class="lead">Vous trouverez ici toutes les informations nécessaires afin pouvoir venir étudier à l'IUT de Lens.</p>
  </div>
 </div>
      <div class="container-fluid" id="contenu3">
@@ -110,8 +112,7 @@
           </div>
        </div>
        <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-          <div data-spy="scroll" data-target="#myScrollspy2" data-offset="10"
-             style="height:700px;overflow-y: scroll;padding:5px; border: 1px solid #ccc;"> <!-- ça c'est la partie qui gère la "boite" où le texte et la barre qui permet de monter/descendre ton texte -->
+          <div data-spy="scroll" data-target="#myScrollspy2" data-offset="10" id="importante"> <!-- ça c'est la partie qui gère la "boite" où le texte et la barre qui permet de monter/descendre ton texte -->
              <!-- si la largueur de la boite te convient pas, tu peux changer le height -->
 
              <h4 id="partie1">LES POSSIBILITÉS D’ÉTUDES EN FRANCE</h4>
@@ -170,8 +171,9 @@
                  <p>Le DALF : Diplôme Approfondi de Langue Française</p>
                  <ul>
                    <li>Le DALF C2 : la maîtrise</li>
-                   <p>Pour plus d’informations (calendrier, tarif, modalités d’organisation , etc.) <a class=color href="http://www.cue-lillenorddefrance.fr/?q=international-etudiants-delf-dalf-francais-langue-etrangere">cliquer ici</a></p>
                  </ul>
+                   Pour plus d’informations (calendrier, tarif, modalités d’organisation , etc.) <a class=color href="http://www.cue-lillenorddefrance.fr/?q=international-etudiants-delf-dalf-francais-langue-etrangere">cliquer ici</a>
+
                </div>
 
            </div>
@@ -190,7 +192,7 @@
                <a class="lienstext" href="http://www.univ-artois.fr/international/etudier-a-l-universite-d-artois/avant-votre-depart">plus d'informations</a>
                </div>
                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-               <b>À votre arrivée :</b>
+               <span class="gras">À votre arrivée :</span>
                <ul>
                  <li>Inscription administrative</li>
                  <li>Inscription pédagogique</li>
@@ -202,7 +204,7 @@
                  Pour les étudiants venant étudiant à l'IUT à titre individuel, la candidature se passe dans le cadre de postbac et campus France : <a class="lienstext" href="http://www.univ-artois.fr/international/venir-etudier-luniversite-dartois/titre-individuel">voir la rubrique inscription.</a>
                  <p></p>
                  <p></p>
-                 <b>Vie étudiante</b>
+                 <span class="gras">Vie étudiante</span>
                  <p></p>
                  Le site du Ministère des affaires étrangères français propose un site Web « étudier en France » qui donnera de nombreuses informations sur :
                  <ul>
@@ -218,7 +220,7 @@
                  <p></p>
                  <p></p>
 
-                 <span class="color"><h5>Liens utiles</h5></span>
+                 <h5 class="color">Liens utiles</h5>
                  <ul>
                    <li><a target="_blank" class="lienstext" href="http://www.univ-artois.fr/international">Site des relations internationales de l’Université d’Artois pour les étudiants venant dans le cadre d’une convention</a> </li>
                    <li><a target="_blank" class="lienstext" href="https://www.campusfrance.org/fr">Agence nationale pour la promotion de l’enseignement supérieur français à l’étranger
@@ -245,7 +247,7 @@
 
 
       <div class="container-fluid" id="contenu1">
-        <div class="jumbotron jumbotron-fluid" style="background-color:rgb(245,143,10);">
+        <div class="jumbotron jumbotron-fluid" id="orange">
   <div class="container">
     <h2 class="display-4" id="Partir"> PARTIR À L'ÉTRANGER</h2>
     <p class="lead">Dans cette partie vous trouverez les informations suivantes : les études et les stages à l’étranger, les personnes pouvant bénéficier d’une expérience à l’étranger, les moyens pour postuler, le niveau de langues et les aides financières.
@@ -266,8 +268,7 @@
                </div>
             </div>
             <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-             <div data-spy="scroll" data-target="#myScrollspy" data-offset="10"
-                  style="height:700px;overflow-y:scroll;padding:5px; border: 1px solid #ccc;">
+             <div data-spy="scroll" data-target="#myScrollspy" data-offset="10" id="important">
                 <h3 id="études">LES ETUDES A L'ETRANGER</h3>
 <div class="étudestext">
         La possibilité de faire un stage à l’étranger est réservée aux étudiants volontaires au cours de leur deuxième année de DUT ou effectuant une année de licence professionnelle.
@@ -461,7 +462,7 @@ Les IUT en France sont comparables aux Kosen au Japon. L’IUT de Lens possède 
 <li>  <a target="_blank" href="https://www.uqac.ca/">Site web de l'Université du Québec à Chicoutimi</a></li>
 <li>  <a target="_blank" href="https://echanges-etudiants.bci-qc.ca/">Site web de la CREPUG - BCI</a></li>
 <li>  <a target="_blank" href="https://www.itsligo.ie/">Site web Instute of Technology Sligo</a></li>
-<li>  <a target="_blank"href="https://www.dkit.ie/">Site web Dundalk Institute of Technology</a></li>
+<li>  <a target="_blank" href="https://www.dkit.ie/">Site web Dundalk Institute of Technology</a></li>
 <li>  <a target="_blank" href="https://www.upo.es/portal/impe/web/portada/index.html">Site web Université Pablo Olavide - Séville</a></li>
 </ul>
 <span class="gras">Stages à l'étranger </span>
@@ -509,11 +510,7 @@ Avant de partir, les étudiants doivent s’informer sur le niveau de langue qui
 <hr>
 </div>
 <p></p>
-    </body>
-<footer class="page-footer font-small unique-color-dark">
-
-   <div style="background-color: rgba(245,143,10,0.6)">
-    <div class="container">
+ <footer class="page-footer font-small unique-color-dark"> <div id="footer"> <div class="container">
       <div class="row py-4 d-flex align-items-center">
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
           <h6 class="mb-0">Rejoignez nous sur les réseaux sociaux !</h6>
@@ -550,6 +547,9 @@ Avant de partir, les étudiants doivent s’informer sur le niveau de langue qui
           <p></p>
           <p></p>
           <a href="form.html">Formulaire</a>
+          <p></p>
+          <p></p>
+          <a href="conseils.html">Conseils</a>
       </div>
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
@@ -558,14 +558,15 @@ Avant de partir, les étudiants doivent s’informer sur le niveau de langue qui
             Rue de l’université<p class="petit"></p>
             SP 16<p class="petit"></p>
             62307 LENS Cedex<p class="petit"></p>
-            FRANCE</p>
+            FRANCE<p></p>
           <p class="tel mr-3"> <span class="gras">Tel </span>: +33 (0)3 21 79 32 32</p>
       </div>
     </div>
   </div>
-<div class="text-center py-3" style="background:rgba(162,67,146,0.6)" id="ref">
+<div class="text-center py-3" id="ref">
 © 2020 IUT de Lens
 </div>
 <!-- Merci d'avoir lu notre projet -->
 </footer>
+</body>
 </html>
