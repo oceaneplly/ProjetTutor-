@@ -1,5 +1,9 @@
 function valider(){
     
+    var a = document.getElementById("email").value.indexOf("@")
+    
+    var b = document.getElementById("email").value.indexOf(".",a+2)
+    
     if (document.getElementById("nom").value == ""){
         alert('Veuillez remplir le champ : "Votre nom".')
 }
@@ -16,6 +20,14 @@ function valider(){
     }
     
     else if (document.getElementById("email").value.indexOf("@") == -1){
+        alert("L'adresse email n'est pas valide.")
+    }
+    
+    else if (document.getElementById("email").value.indexOf(".",a+3) == -1){
+        alert("L'adresse email n'est pas valide.")
+    }
+    
+    else if (document.getElementById("email").value.substring(b+2, b+3) == ""){
         alert("L'adresse email n'est pas valide.")
     }
     
