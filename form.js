@@ -15,6 +15,10 @@ function valider(){
         alert('Veuillez remplir le champ : "Votre email".')
     }
     
+    else if (document.getElementById("email").value.indexOf("@") == -1){
+        alert("L'adresse email n'est pas valide.")
+    }
+    
     else if (document.getElementById("message").value == ""){
         alert("Veuillez entrer un message dans le champ correspondant.")
     }
