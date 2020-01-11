@@ -26,13 +26,28 @@ a:link {
   color:black;
 }
 
+#conseils {
+  background-color: rgb(162,67,146);
+  color: black;
+  border-radius: 5%;
+}
+
+#ref {
+  background:rgba(162,67,146,0.6);
+}
+
+#footer {
+  background-color: rgba(245,143,10,0.6);
+}
+
+
 #contenu4 a:hover{
     text-decoration: underline;
     color: black;
 }
 
 .nav-item {
-  margin-right:20px;
+  margin-right:20%;
 }
 
 .col-lg-3{
