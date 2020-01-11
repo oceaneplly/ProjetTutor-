@@ -1,25 +1,25 @@
 function valider(){
     
-    if (document.getElementById("nom") === undefined){
+    if (document.getElementById("nom").value == ""){
         alert('Veuillez remplir le champ : "Votre nom".')
 }
-    else if (document.getElementById("prenom") === undefined){
+    else if (document.getElementById("prenom").value == ""){
         alert('Veuillez remplir le champ : "Votre prénom".')
     }
     
-    else if (document.getElementById("entreprise") === undefined){
+    else if (document.getElementById("entreprise").value == ""){
         alert('Veuillez remplir le champ : "Nom de votre entreprise".')
     }
     
-    else if (document.getElementById("email") === undefined){
+    else if (document.getElementById("email").value == ""){
         alert('Veuillez remplir le champ : "Votre email".')
     }
     
-    else if (document.getElementById("message") === undefined){
+    else if (document.getElementById("message").value == ""){
         alert("Veuillez entrer un message dans le champ correspondant.")
     }
     
-    else if (document.getElementById("donnees") === undefined){
+    else if (document.getElementById("donnees").checked == false){
         alert("Veuillez cocher la case à propos de vos données personnelles.")
     }
     
